@@ -33,7 +33,7 @@ Copy the API key
 Create a .env file in the project root and add:
 
 ```
-VITE_API_KEY=your_api_key_here 
+VITE_API_KEY = your_api_key_here 
 VITE_API_URL = https://api.themoviedb.org/3
 ```
 
