@@ -1,9 +1,8 @@
-
 .movie-card {
   position: relative;
   border-radius: 8px;
   overflow: hidden;
-  background-color: #1a1a1a;
+  background: linear-gradient(135deg, rgba(20, 20, 40, 0.9), rgba(10, 10, 30, 0.9));
   transition: transform 0.2s;
   height: 100%;
   display: flex;
