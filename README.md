@@ -10,7 +10,7 @@ git clone https://github.com/KrushalGopale/SeekFilm.git
 
 ## Install Dependencies
 
-npm install
+`npm install`
 
 ## Get TMDB API Key
 
@@ -30,8 +30,8 @@ Copy the API key
 
 Create a .env file in the project root and add:
 
-```VITE_API_KEY=your_api_key_here
-VITE_API_URL = https://api.themoviedb.org/3```
+`VITE_API_KEY=your_api_key_here`
+`VITE_API_URL = https://api.themoviedb.org/3`
 
 ## Start the Development Server
 
