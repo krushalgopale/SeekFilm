@@ -6,7 +6,7 @@ Follow these steps to set up and run the project:
 
 ## Clone the Repository
 
-`git clone https://github.com/KrushalGopale/SeekFilm.git`
+```git clone https://github.com/KrushalGopale/SeekFilm.git```
 
 ## Install Dependencies
 
