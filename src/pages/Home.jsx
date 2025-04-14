@@ -13,6 +13,7 @@ function Home() {
     const loadPopularMovies = async () => {
       try {
         const popularMovies = await getPopularMovies();
+        console.log("Popular Movies Response:", popularMovies);
         setMovies(popularMovies);
       } catch (error) {
         console.log(error);
