@@ -59,18 +59,21 @@ function Home() {
       </form>
 
       {error && <div className="error-message">{error}</div>}
-
       {loading ? (
         <div className="loading">Loading...</div>
       ) : (
         <div className="movies-grid">
-          {movies.map((movie) => (
-            <MovieCard movie={movie} key={movie.id} />
-          ))}
+          {Array.isArray(movies) && movies.length > 0 ? (
+            movies.map((movie) => (
+              <MovieCard movie={movie} key={movie.id} />
+            ))
+          ) : (
+            <div>No movies found</div>
+          )}
         </div>
       )}
     </div>
-  );
+        );
 }
 
 export default Home;
